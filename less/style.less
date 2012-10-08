@@ -1,0 +1,19 @@
+@import url(reset.less);
+@import url(variables.less);
+@import url(mixins.less);
+@import url(scaffolding.less);
+@import url(type.less);
+@import url(forms.less);
+
+body{
+  background-color:#e9e9e9;
+}
+.container {
+  .container-fixed();
+  width:600px;
+  margin-top:50px;
+  margin-bottom:50px;
+  background-color:#ffffff;
+  padding:30px;
+  .box-shadow(3px 3px 8px rgba(0,0,0,.5)); //@shadow: inset  0 1px 3px rgba(0,0,0,.25)
+}

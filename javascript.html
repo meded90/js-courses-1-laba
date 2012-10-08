@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>главная</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <!--  откомпиленый LESS  -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+
+</head>
+<body>
+    <div class="container">
+        <h1>
+            Тестовое задние
+            <small>Курс «JavaScript»</small>
+        </h1>
+        <form class="form-horizontal">
+            <div class="control-group">
+                <label class="control-label" for="adrow-dev" >Массив для сортировки</label>
+                <div class="controls">
+                    <input type="text" id="adrow-dev" required pattern="^[\d,]+$">
+                    <p class="help-block">
+                        введите масив цифр черз запятую
+                    </p>
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label">По возрастанию </label>
+                <div class="controls">
+                    <span id="ascending"></span>
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label">По убываню </label>
+                <div class="controls">
+                    <span id="descending"></span>
+                </div>
+            </div>
+
+        </form>
+
+    </div>
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./js/jquery.js"></script>
+    <script src="./js/project.js"></script>
+</body>
+</html>
